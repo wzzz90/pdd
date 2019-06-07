@@ -17,6 +17,7 @@
     "postcss-px2rem": "^0.3.0",
     "px2rem": "^0.5.0",
     "px2rem-loader": "^0.1.9",
+    "swiper": "^4.5.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-style-loader": "^3.1.2",

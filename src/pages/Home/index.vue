@@ -4,7 +4,8 @@
     :options="options" 
     v-model="selectedId" 
     :items="items"
-    @change="handleClick">
+    @change="handleClick"
+    class="fix">
     </ly-tab>
     <router-view></router-view>
   </div>
@@ -43,4 +44,10 @@ export default {
 
 </script>
 <style lang='scss' scoped>
+.fix {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 998;
+}
 </style>

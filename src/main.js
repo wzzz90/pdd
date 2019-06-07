@@ -6,6 +6,12 @@ import router from './router'
 import LyTab from 'ly-tab';
 import 'lib-flexible/flexible.js';
 
+import store from './store/index.js';
+
+import {post,fetch} from './api/ajax';
+Vue.prototype.$post=post;
+Vue.prototype.$fetch=fetch;
+
 Vue.config.productionTip = false
 
 Vue.use(LyTab);
@@ -14,6 +20,7 @@ Vue.use(LyTab);
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

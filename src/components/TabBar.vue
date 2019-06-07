@@ -66,6 +66,7 @@ export default {
   left: 0;
   bottom: 0;
   display: flex;
+  background: #fff;
   z-index: 999;
   .tab-item {
     display: flex;
